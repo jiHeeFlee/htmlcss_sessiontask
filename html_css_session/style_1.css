@@ -1,0 +1,160 @@
+* {
+    font-family: 'SBAggroB';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    font-family: 'SUITE-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+}
+
+/* =================================== */
+
+h1 {
+    margin: 0px;
+    padding: 100px;
+    color:black;
+    /* text-shadow: 3px 3px 1px gray; */
+    font-family: 'SBAggroB';
+    font-size: 45px;
+}
+
+h1:hover {
+    color: red;
+}
+
+h2 {
+    font-family: 'SBAggroB';
+    /* padding: 50px; */
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'SBAggroB';
+    padding: 30px;
+    font-size: 27px;
+}
+
+/* ============================================ */
+
+.f1 {
+    font-family: 'SUITE-Regular';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    /* width: 200px;
+    height: 200px; */
+    width: 300px;
+    height: 200px;
+}
+
+.f2 {
+    display: block;
+    font-family: 'SUITE-Regular';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    /* width: 200px;
+    height: 200px; */
+    width: auto 20px;
+    height: auto 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: flex block;
+    text-align: center;
+    background-color: black;
+    /* ===== */
+    font-family: 'SUITE-Regular';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    /* ========== */
+    text-align: center;
+    /* width: auto 30px; */
+    /* height: auto 30px; */
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: white;
+    text-decoration: underline;
+}
+
+/* ===================================================== */
+
+div {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.div_img {
+    width: 500px;
+    height: 500px;
+    border : 7px solid black;
+    border-radius: 10%;
+}
+
+.spaceimg {
+    padding: 50px;
+}
+
+/* ======================================================= */
+
+
+.m1 {
+    display: flex block;
+    flex-flow:row;
+    text-align: center;
+    /* border: 10px solid red; */
+    justify-content: center;
+    margin: 20px;
+}
+
+.m2 {
+    display: flex block;
+    flex-flow:column;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    border: 10px black;
+    /* background-color: antiquewhite; */
+}
+
+.m3 {
+    display: flex block;
+    text-align: center;
+    flex-flow: column;
+    border: 5px solid black;
+    border-radius: 20px;
+    /* background-color: aqua; */
+}
+
+p {
+    text-align: center;
+    width: auto 30px;
+    height: auto 30px;
+    font-family: 'SUITE-Regular';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+}
+
